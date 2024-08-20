@@ -9,7 +9,7 @@
     Background-image: linear-gradient(white, rgb(50, 50, 255));
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
 #id_pergunta{
     background-color: red;
     padding: 5%;
