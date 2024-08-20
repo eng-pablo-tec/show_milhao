@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    Background-image: linear-gradient(white, rgb(50, 50, 255));
+
+}
+@media only screen and (max-width: 600px) {
+#id_pergunta{
+    background-color: red;
+    padding: 5%;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.class_alternativa{
+    font-size: 150%;
+    padding: 1.5%;
+    Background-image: linear-gradient(to right, blue, rgb(0, 0, 100));
+    margin: 5% 5%;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+#proxima{
+    display:none;
+    padding: 5%;
+    background-color: green;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10% 10%;
+    color: white;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+}
